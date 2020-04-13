@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "Generated";
+
+message Name
+{
+	string Name = 1;
+}
+
+message EmptyMessage
+{
+
+}
