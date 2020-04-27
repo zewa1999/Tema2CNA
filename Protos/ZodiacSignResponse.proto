@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "Date.proto";
+import "ZodiacSign.proto";
+
+option csharp_namespace = "Generated";
+
+service ZodiacSignService
+{
+	rpc GetZodiacSign(Date) returns (Zodie);
+}
